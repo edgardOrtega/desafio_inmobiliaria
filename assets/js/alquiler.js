@@ -31,6 +31,17 @@ const propiedades_alquiler = [
         costo: 2200,
         smoke: false,
         pets: false
+    },
+    {
+        nombre: 'Condominio moderno en zona residencial',
+        src: 'https://cdn.bioguia.com/embed/c331f4e5d779a9c8b7946d2891718378504/Aguas-termales-de-Bath.jpg',
+        descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
+        ubicacion: '123 Main Street, Anytown, CA 91234',
+        habitaciones: 2,
+        baño:2,
+        costo: 2200,
+        smoke: false,
+        pets: false
     }
     ]
 

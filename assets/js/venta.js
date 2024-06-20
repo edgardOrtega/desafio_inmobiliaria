@@ -31,7 +31,18 @@ const propiedades_venta = [
         costo: 4500,
         smoke: false,
         pets: true
-    }
+    },
+    {
+      nombre: 'Penthouse de lujo con terraza panorámica',
+      src: 'https://cdn.bioguia.com/embed/2cddc444e5dd824ebaabcfe819e9e537e5b4dd11718378599/Aguas-termales-de-Bath-investigaciones.jpg?imagick=1&size=1100',
+      descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
+      ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
+      habitaciones: 3,
+      baño:3,
+      costo: 4500,
+      smoke: false,
+      pets: true
+  }
     ]
     
 
