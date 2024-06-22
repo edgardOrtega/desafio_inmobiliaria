@@ -45,9 +45,8 @@ const propiedades_venta = [
   }
     ]
     
-
-
     const template = document.querySelector('#venta');
+
     let html = ''
 
     for(propiedades_ventas of propiedades_venta){

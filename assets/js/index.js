@@ -31,6 +31,17 @@ const propiedades_alquiler = [
         costo: 2200,
         smoke: false,
         pets: false
+    },
+    {
+        nombre: 'Condominio moderno en zona residencial',
+        src: 'https://cdn.bioguia.com/embed/c331f4e5d779a9c8b7946d2891718378504/Aguas-termales-de-Bath.jpg',
+        descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
+        ubicacion: '123 Main Street, Anytown, CA 91234',
+        habitaciones: 2,
+        baño:2,
+        costo: 2200,
+        smoke: false,
+        pets: false
     }
 ]
 const propiedades_venta = [
@@ -66,7 +77,18 @@ const propiedades_venta = [
         costo: 4500,
         smoke: false,
         pets: true
-    }
+    },
+    {
+      nombre: 'Penthouse de lujo con terraza panorámica',
+      src: 'https://cdn.bioguia.com/embed/2cddc444e5dd824ebaabcfe819e9e537e5b4dd11718378599/Aguas-termales-de-Bath-investigaciones.jpg?imagick=1&size=1100',
+      descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
+      ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
+      habitaciones: 3,
+      baño:3,
+      costo: 4500,
+      smoke: false,
+      pets: true
+  }
 ]
 
 const template_venta = document.querySelector('#venta')
