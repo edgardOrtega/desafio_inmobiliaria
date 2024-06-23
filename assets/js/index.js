@@ -91,9 +91,15 @@ const propiedades_venta = [
   }
 ]
 
+/* creo un template para capturar el ID */
 const template_venta = document.querySelector('#venta')
+/* creo una variable vacia para que despues el for agregue las cartas */
 let html= ''
 
+
+/*  se realiza un for para recorrer todo el arreglo y se va agregando a la variable vacia html 
+todas las cartas.
+*/
 for(let i = 0 ; i < 3;++i){
     const propiedades_ventas = propiedades_venta[i]
     html+=
@@ -130,6 +136,7 @@ for(let i = 0 ; i < 3;++i){
            </div>
            </div>`
 }
+/* ya con la variable completa con las cartas agregadas por el for se agrega al HTML con innerHTML */
 template_venta.innerHTML = html;
 
 const template_alquiler = document.querySelector('#alquiler')
